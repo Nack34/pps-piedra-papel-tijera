@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Yolov11Proyect"
+version = "0.1.0"
+description = ""
+authors = ["Ignacio <meloignacionicolas@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ultralytics = "^8.3.27"
+filterpy = "^1.4.5"
+opencv-python = "^4.10.0.84"
+torch = "^2.5.1"
+tensorflow = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
