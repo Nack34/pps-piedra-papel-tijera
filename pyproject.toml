@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "Yolov11Proyect"
+name = "pps-piedra-papel-tijera"
 version = "0.1.0"
 description = ""
-authors = ["Ignacio <meloignacionicolas@gmail.com>"]
+authors = ["Nicolas <ricciardinicolas75@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "src" }]
 
